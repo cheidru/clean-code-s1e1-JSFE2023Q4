@@ -159,7 +159,7 @@ button {
 }
 
 /* Completed */
-.completed-tasks .input-lbl {
+.planner-section__completed-tasks .input-lbl {
   text-decoration: line-through;
   color: #888;
 }
