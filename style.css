@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.matrix-wrapper #matrix-img {
+.matrix-wrapper__img {
   width: 100%;
 }
 
-.matrix-wrapper .matrix-info {
+.matrix-wrapper__info {
   font-family: fantasy, cursive;
 }
 
@@ -30,10 +30,7 @@
   display: block;
   width: 500px;
   margin: 0 auto 0;
-}
-
-#add-item {
-  margin: 1em 0;
+  padding: 1em 0;
 }
 
 .task {
@@ -42,8 +39,9 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.planner-section__task-row-wrapper {
   display: flex;
+  padding-bottom: 1em;
 }
 
 /* reset default styles */
@@ -84,7 +82,7 @@ button {
 }
 
 /* Heading */
-.block-title {
+.planner-section__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
