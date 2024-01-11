@@ -2,7 +2,7 @@
 .page {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
 }
 
 .matrix-wrapper {
@@ -71,7 +71,7 @@ button {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   cursor: pointer;
 }
 
@@ -101,7 +101,7 @@ button {
   border: 1px solid #dDd;
   background: #FFF;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   color: #888;
 }
 
@@ -110,7 +110,7 @@ button {
 }
 
 /* New Task */
-[for='new-task'] {
+[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
